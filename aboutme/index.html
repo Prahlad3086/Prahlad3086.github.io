@@ -1,307 +1,33 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>debuggers</title>
-
-    <script src="https://kit.fontawesome.com/7d0e898fba.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
-<style media="screen">
-ul {
-  overflow-x: hidden;
-  text-decoration: none;
-  margin: 0; }
-
-h1, h2, h3, h4, h5, h6, p, figure, div, body {
-  font-weight: normal;
-  margin: 0; }
-
-button, input {
-  outline: none;
-  border: none;
-  color: inherit; }
-
-a {
-  text-align: none;
-  color: inherit;
-  text-decoration: none; }
-
-body {
-  background-color: black; }
-
-#topbar {
-  background-color: rgba(61, 46, 57, 0.8);
-  z-index: 10;
-  position: fixed;
-  width: 100%;
-  height: 10vh;
-  color: white;
-  font-size: 25px;
-  margin-bottom: 200px; }
-  #topbar h1 {
-    display: inline-block;
-    width: 18%;
-    padding: 5px;
-    padding-left: 25px;
-    font-size: 45px; }
-  #topbar nav {
-    margin: 0;
-    display: inline-block;
-    width: 70%; }
-    #topbar nav ul {
-      display: inline-flex;
-      justify-content: flex-start;
-      width: 100%;
-      padding: 0; }
-      #topbar nav ul li {
-        text-align: center;
-        display: inline-block;
-        width: 20%;
-        margin-bottom: 0;
-        padding: 15px; }
-      #topbar nav ul li:last-of-type {
-        padding: 15px;
-        border: white 2px solid;
-        border-radius: 25px;
-        font-size: 25px;
-        font-weight: lighter; }
-        #topbar nav ul li:last-of-type:hover {
-          background-color: red;
-          border-color: red; }
-
-#img {
-  width: 100%;
-  height: 100vh;
-  color: whitesmoke;
-  display: flex;
-  font-family: sans-serif;
-  font-weight: lighter;
-  justify-content: center;
-  align-items: center;
-  text-align: center; }
-  #img h1 {
-    width: 70%;
-    height: 20vh;
-    font-size: 40px; }
-
-#aboutus {
-  width: 100%;
-  height: 100vh;
-  color: white;
-  font-family: 'Quicksand', sans-serif;
-  background-color: rgba(237, 27, 65, 0.9);
-  font-weight: 100;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around; }
-  #aboutus h1 {
-    text-align: center;
-    font-size: 100px;
-    width: 100%; }
-  #aboutus img {
-    display: inline-block;
-    height: 50vh;
-    width: 40%; }
-  #aboutus p {
-    width: 40%;
-    font-size: 30px; }
-
-#whatwedo {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  width: 100%;
-  height: 120vh;
-  background-color: rgba(60, 176, 238, 0.92);
-  font-family: 'Quicksand', sans-serif;
-  color: white;
-  text-align: center; }
-  #whatwedo #wtf {
-    text-align: center;
-    font-size: 100px;
-    width: 100%;
-    margin-bottom: 50px;
-    font-weight: bold; }
-  #whatwedo div {
-    margin: 30px;
-    display: inline-flex;
-    width: 40%;
-    height: 40vh;
-    flex-direction: column;
-    justify-content: space-between; }
-    #whatwedo div h1 {
-      color: ghostwhite; }
-    #whatwedo div img {
-      height: 25vh;
-      width: 90%;
-      border: black 1px solid; }
-
-#ourteam {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  width: 100%;
-  height: 130vh;
-  font-family: 'Quicksand', sans-serif;
-  text-align: center;
-  background-color: antiquewhite; }
-  #ourteam #wtf2 {
-    text-align: center;
-    font-size: 100px;
-    width: 100%;
-    margin-bottom: 50px;
-    font-weight: bold; }
-  #ourteam div {
-    width: 28%;
-    height: 48vh;
-    margin-bottom: 20px; }
-    #ourteam div img {
-      height: 70%;
-      width: 70%;
-      border-radius: 50%;
-      border: black 1px solid; }
-    #ourteam div i {
-      font-size: 30px;
-      margin: 10px;
-      margin-top: 20px; }
-
-footer {
-  height: 10vh;
-  width: 100%;
-  font-family: 'Quicksand', sans-serif;
-  color: rgba(217, 233, 238, 0.94);
-  text-align: center; }
-  footer p {
-    width: 100%;
-    padding-top: 20px;
-    font-size: 30px; }
-
-</style>
-  </head>
-  <body >
-    <div id="topbar">
-
-
-     <h1><i class="fa fa-code" ></i>
-       Debuggers</h1>
-    <nav>
-     <ul>
-      <li><a href="#home">HOME</a></li>
-      <li><a href="#aboutus">ABOUT US</a></li>
-      <li><a href="#ourwork">OUR WORK</a></li>
-      <li><a href="#ourteam">OUR TEAM</a></li>
-      <li> <a href="#contactus">CONTACT US </a></li>
-    </ul>
-
-  </nav>
-
-  </div>
-  <a name="home"></a>
-<div id="img">
-
-<h1>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo conse"</h1>
-
-</div>
-<div id="aboutus">
-  <a name="aboutus"></a>
-  <h1>About Us</h1>
-  <img src="C:\Users\HP\Desktop\debuggers website\images\db.jpg">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-</div>
-<div id="whatwedo">
-  <a name="ourwork"></a>
-
-  <h1 id="wtf">What we do?</h1>
-  <div >
-  <img src="https://previews.123rf.com/images/decorwithme/decorwithme1902/decorwithme190200074/125330346-mobile-app-development-modern-colorful-isometric-vector-illustration-on-white-background-high-qualit.jpg">
-    <h1>App Development</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-  </div>
-  <div >
-  <img src="https://media.istockphoto.com/vectors/front-end-vector-website-landing-page-design-template-vector-id1152611667">
-        <h1>Front End Development</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-  </div>
-  <div >
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSz_RzFznN5sV3g-oL_6A8INZ9Bnb__LS8uTQ0snpD0xTmlNDeT&usqp=CAU">
-      <h1>Backend Development</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-  </div>
-  <div >
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRbmZjUKjoE14uWWc3G3SplYA2NxK-E2Id_4x2u0DQqUGnWvWgX&usqp=CAU">
-    <h1>New Technologies</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-  </div>
-</div>
-<div id="ourteam">
-  <a name="ourteam"></a>
-
-  <h1 id="wtf2">Our Team</h1>
-  <div >
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRbmZjUKjoE14uWWc3G3SplYA2NxK-E2Id_4x2u0DQqUGnWvWgX&usqp=CAU">
-    <h1>Nikhil Ratta</h1>
-    <a href="https://www.facebook.com/people/Nikhil-Ratta/100006239086805" target="_blank">
-  <i class="fab fa-facebook-f"></i></a>
-  <a href="https://www.instagram.com/niks_ratta/" target="_blank">
-  <i class="fab fa-instagram"></i></a>
-    <a href="https://github.com/NikhilRattaNITKKR" target="_blank">
-    <i class="fab fa-github"></i></a>
-  </div>
-  <div >
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRbmZjUKjoE14uWWc3G3SplYA2NxK-E2Id_4x2u0DQqUGnWvWgX&usqp=CAU">
-    <h1>Nikhil Ratta</h1>
-    <a href="https://www.facebook.com/people/Nikhil-Ratta/100006239086805" target="_blank">
-  <i class="fab fa-facebook-f"></i></a>
-  <a href="https://www.instagram.com/niks_ratta/" target="_blank">
-  <i class="fab fa-instagram"></i></a>
-    <a href="https://github.com/NikhilRattaNITKKR" target="_blank">
-    <i class="fab fa-github"></i></a>
-  </div>
-  <div >
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRbmZjUKjoE14uWWc3G3SplYA2NxK-E2Id_4x2u0DQqUGnWvWgX&usqp=CAU">
-    <h1>Nikhil Ratta</h1>
-    <a href="https://www.facebook.com/people/Nikhil-Ratta/100006239086805" target="_blank">
-  <i class="fab fa-facebook-f"></i></a>
-  <a href="https://www.instagram.com/niks_ratta/" target="_blank">
-  <i class="fab fa-instagram"></i></a>
-    <a href="https://github.com/NikhilRattaNITKKR" target="_blank">
-    <i class="fab fa-github"></i></a>
-  </div>
-  <div >
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRbmZjUKjoE14uWWc3G3SplYA2NxK-E2Id_4x2u0DQqUGnWvWgX&usqp=CAU">
-    <h1>Nikhil Ratta</h1>
-    <a href="https://www.facebook.com/people/Nikhil-Ratta/100006239086805" target="_blank">
-  <i class="fab fa-facebook-f"></i></a>
-  <a href="https://www.instagram.com/niks_ratta/" target="_blank">
-  <i class="fab fa-instagram"></i></a>
-    <a href="https://github.com/NikhilRattaNITKKR" target="_blank">
-    <i class="fab fa-github"></i></a>
-  </div>
-  <div >
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRbmZjUKjoE14uWWc3G3SplYA2NxK-E2Id_4x2u0DQqUGnWvWgX&usqp=CAU">
-    <h1>Nikhil Ratta</h1>
-    <a href="https://www.facebook.com/people/Nikhil-Ratta/100006239086805" target="_blank">
-  <i class="fab fa-facebook-f"></i></a>
-  <a href="https://www.instagram.com/niks_ratta/" target="_blank">
-  <i class="fab fa-instagram"></i></a>
-    <a href="https://github.com/NikhilRattaNITKKR" target="_blank">
-    <i class="fab fa-github"></i></a>
-  </div>
-  <div >
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRbmZjUKjoE14uWWc3G3SplYA2NxK-E2Id_4x2u0DQqUGnWvWgX&usqp=CAU">
-    <h1>Nikhil Ratta</h1>
-    <a href="https://www.facebook.com/people/Nikhil-Ratta/100006239086805" target="_blank">
-  <i class="fab fa-facebook-f"></i></a>
-  <a href="https://www.instagram.com/niks_ratta/" target="_blank">
-  <i class="fab fa-instagram"></i></a>
-    <a href="https://github.com/NikhilRattaNITKKR" target="_blank">
-    <i class="fab fa-github"></i></a>
-  </div>
-</div>
-<footer>
-<p><i class="far fa-copyright"></i>
-Debuggers,NIT KURUSHETRA
-</p>
-</footer>
-  </body>
+<html>
+    <head>
+        <title>Prahlad_3086</title>
+        <link rel="icon" href="icon.png" sizes="50x50" type="image/gif">
+        <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+            }
+            body{
+                background-color: #0F292F;
+            }
+           .top{
+                color: #CB2D6F;
+                font-family:fantasy;
+                letter-spacing: 12px;
+                font-size: 90px;
+               padding: 5%;
+                 text-align: center;
+                display: block;
+                text-shadow: 0px 0px 100px white;
+               border: 2px solid #DA7B93;
+               box-shadow: 5px 10px 5px #DA7B93;
+            }
+            
+        </style>
+    </head>
+    <body>
+       <div class="top">GLAD TO SEE YOU😄😀</div>
+        
+    </body>
 </html>
