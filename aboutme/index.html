@@ -13,6 +13,9 @@
             body{
                 background-color: #0F292F;
             }
+            audio{
+                margin top: -80px;
+            }
            .top{
                 color: #CB2D6F;
                 font-family:fantasy;
@@ -94,7 +97,7 @@
             #map{
                 box-shadow: 0px 0px 6px 2px #29a19c;
                 display: block;
-                padding: 20px;
+                width: 370px;
             }
             .institute{
                 box-shadow: 0px 0px 6px 2px #29a19c;
@@ -124,9 +127,53 @@
                 margin-bottom: 10px;
                 line-height: 30px;
             }
+            .field{
+        border:2px solid  pink;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        margin-top: 2em;
+        width:350px;
+        height:370px;
+                align-self: center;
+    }
+    legend{
+        background-color:deeppink; 
+        color:aliceblue;
+        font-size: 25px;
+        border-radius: 5px;
+    }
+    #photo{
+        width:320px;
+        height:320px;
+        padding: 20px;
+        border:2px solid  pink;
+        margin-left: auto;
+        background-image: url(bg1.jpg);
+        background-size: 100% 100%;
+        animation: gallery 33s infinite linear;
+        box-shadow: 1px 2px 10px 5px white;
+        animation-delay: 0.1s;
+        transition: 0.8s ease;
+        
+    }
+    
+    @keyframes gallery{
+        0%{background-image:  url("1.jpg");}
+        9%{background-image:  url("2.jpg");}
+        18%{background-image:  url("3.jpg");}
+        27%{background-image: url(4.jpg);}
+        36%{background-image: url(5.jpg);}
+        45%{background-image: url(6.jpg);}
+        54%{background-image: url(7.jpg);}
+        63%{background-image: url(8.jpg);}
+        72%{background-image: url(9.jpg);}
+        81%{background-image: url(10.jpg);}
+        90%{background-image: url(11.jpg);}
+    }
         </style>
     </head>
     <body>
+        <audio autoplay><source src="backgroundsound.mp3" type="audio/mpeg"></audio>
        <div class="top">GLAD TO SEE YOU😄😀</div>
         <div class="navbar">
             <div class="container">
@@ -172,12 +219,18 @@
             <p>My name is Prahlad Kumar.I am from Jamui a city of Bihar.<br>I am always eager to learn new thing.<br>I try to use creative approach to solve any Problem.<br>
             I am interested in building a team and try to lead it.<br>🤗🤗<br><q>God has given you one face,and you make yourself another.</q></p>
             <h2>Reach ME</h2>
-            <div id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3617.5427199449236!2d86.23747861497746!3d24.94764328401294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f22a1eebd5f50f%3A0x23e4230fcbdeda4b!2sshiv%20mandir%20satgama!5e0!3m2!1sen!2sin!4v1590295948222!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+            <iframe id="map"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3617.5427199449236!2d86.23747861497746!3d24.94764328401294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f22a1eebd5f50f%3A0x23e4230fcbdeda4b!2sshiv%20mandir%20satgama!5e0!3m2!1sen!2sin!4v1590295948222!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
         <div class="institute">
             <h2>MY INSTITUTE</h2>
             <img id="img2" src="nitlogo.png">
             <p>I am currently studying at National Institute of Technology,Kurukshetra(Haryana).<br>My branch is Information Technology.<br>Currently in 1st year.<br>In the name of education we engage ourselves to extra-curicular activities<br> just to ralize later (while applying for GATE,GRE,GMAT) <br>that what we do in name of extra-curricular is actually better<br> known as "Entertainment,Entertainment and Entertainment 😂🤣😄!!!". </p>
+            <fieldset class="field">
+            <legend>Photo Gallery</legend>
+            <div id="photo"> 
+            
+            </div>
+            </fieldset> 
         </div>
     </body>
 </html>
